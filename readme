@@ -1,0 +1,39 @@
+
+# Anexus
+
+
+
+
+## Git FLow
+
+Os Branches principais
+
+develop -> O origin/develop será o branch principal, onde modificações realizadas na fase de desenvolvimento serão enviadas para o próximo release.
+
+master -> origin/master será o branch principal onde seu HEAD sempre vai refletir o estado do código do projeto em produção.
+
+Branches de apoio
+Ao contrário dos branches principais esses possuem um tempo de vida limitado, uma vez que serão removidos posteriormente.
+
+Os brances de apoio podem ser: Feature branches, Release branches e Hotfix branches.
+
+#feature branches
+
+Pode se ramificar a partir : develop
+Pode ser mergeado para: develop
+
+Convenção de nomes: feature/[nomedaatividade]
+
+Qualquer coisa exceto master, develop, release-* ou hotfix-*
+
+#Release branches
+
+Pode ramificar a partir de: develop
+Pode ser mergeado para: develop e master
+Conversão de nomenclatura: release-*
+
+#Hotfix branches
+
+Pode ramificar a partir de: develop
+Pode ser mergeado para: develop e master
+Conversão de nomenclatura: hotfix-*
