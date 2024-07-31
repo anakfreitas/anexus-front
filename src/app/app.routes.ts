@@ -1,13 +1,11 @@
 import { Routes } from '@angular/router';
+import { AutenticateRoutes } from './features/autenticate/autenticate.routes';
 
 export const routes: Routes = [
-  {
-    path: 'home',
-    loadComponent: () => import('./home/home.page').then((m) => m.HomePage),
-  },
+  ...AutenticateRoutes,
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: '',
     pathMatch: 'full',
   },
 ];
