@@ -1,0 +1,7 @@
+{
+  "name": "anexus-front",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
