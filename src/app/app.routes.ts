@@ -1,11 +1,11 @@
 import { Routes } from '@angular/router';
-import { AutenticateRoutes } from './features/autenticate/autenticate.routes';
+import { AutenticateRoutes } from './features/authenticate/autenticate.routes';
 
 export const routes: Routes = [
   ...AutenticateRoutes,
   {
     path: '',
-    redirectTo: '',
+    redirectTo: 'login',
     pathMatch: 'full',
   },
 ];
