@@ -8,6 +8,7 @@
         height: 80vh;
         border-radius: 0px 0px 50px 50px ;
         padding: 50px;
+        padding-top: 120px !important;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -20,6 +21,24 @@
             font-weight: bold;
             color: var(--secondary);
         }
+    }
+
+    ion-input{
+        --background: #e6eddf;
+        text-align: left;
+        --border-radius: 10px;
+        --padding-start: 8px;
+        --color: var(--dark-text);
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    ion-icon{
+        color: var(--secondary);
+    }
+
+    .logo{
+        width: 250px;
+        margin: 0 auto;
     }
     
 }

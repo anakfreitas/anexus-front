@@ -1,8 +1,16 @@
-<ion-content [fullscreen]="true">
+<ion-content>
   <section class="login-page">
     <div class="login-form">
-      <ion-img [src]="logo"></ion-img>
+      <ion-img [src]="logo" class="logo"></ion-img>
       <h1>LOGIN</h1>
+      <div>
+        <ion-input fill="outline" placeholder="usuário">
+          <ion-icon slot="start" name="people" ></ion-icon>
+        </ion-input>
+        <ion-input fill="outline" placeholder="senha" type="password">
+          <ion-icon slot="start" name="key" ></ion-icon>
+        </ion-input>
+      </div>
       <p class="cadastro">Não tem cadastro? <a>Clique aqui</a></p>
     </div>
   </section>
